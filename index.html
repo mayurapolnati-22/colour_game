@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Matching Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>Color Matching Game</h1>
+
+    <p class="question">Which color is this?</p>
+
+    <h2 id="colorName">Color</h2>
+
+    <div id="colorButtons" class="buttons">
+      <!-- Four color buttons will be added using JavaScript -->
+    </div>
+
+    <p id="message"></p>
+
+    <p id="score">Score: 0</p>
+    <p id="questionCount">Question: 1 / 10</p>
+
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <div id="resultScreen" class="result-screen hidden">
+    <h1>Game Completed!</h1>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
